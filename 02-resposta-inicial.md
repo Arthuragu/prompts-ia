@@ -7,7 +7,7 @@ Gerar uma primeira resposta cordial com passos seguros de primeiro atendimento.
 Texto do chamado e, se houver, a classificação.
 
 ## Saída esperada
-Resposta curta e educada, com poucos passos simples. Não promete prazo nem inventa solução.
+Resposta curta e educada, com poucos passos simples. Não promete prazo nem inventa solução. Os critérios por chamado estão em "Resposta ideal para o prompt 02" em `testes/chamados-ficticios.md`.
 
 ## Prompt (versão atual)
 ```
