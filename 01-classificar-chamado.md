@@ -13,7 +13,17 @@ JSON com os campos `categoria`, `prioridade` e `justificativa` curta. Chamado va
 Versão atual: **v2**.
 
 ```
-[COLE AQUI O TEXTO EXATO DA v2 QUE VOCÊ USOU NOS TESTES]
+Responda em JSON com os campos: **categoria, prioridade e justificativa** chamado.
+
+A prioridade deve ser classificada como "baixa", "média" ou "alta". Caso faltem informações suficientes para classificar o chamado, utilize "indefinida" e explique o motivo na justificativa.
+
+Se o chamado estiver fora do escopo de suporte técnico, classifique a categoria como "fora do escopo" e explique o motivo na justificativa, sem tentar inventar uma classificação técnica.
+
+Não invente informações. Quando não houver dados suficientes para identificar o problema, informe essa limitação.
+
+Mantenha o JSON válido, organizado e sem comentários fora da estrutura.
+
+chamado:
 ```
 
 ## Exemplo de uso
