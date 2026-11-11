@@ -1,17 +1,18 @@
 # 03. Resumir um problema
 
 ## Objetivo
-Transformar uma conversa longa em resumo curto para quem assume o chamado.
+Transformar uma conversa longa de um chamado em um resumo curto para quem assume o atendimento, sem precisar ler tudo.
 
 ## Entrada
-Histórico de mensagens do chamado.
+Histórico de mensagens do chamado (conversas de [`testes/conversas-ficticias.md`](../testes/conversas-ficticias.md)).
 
 ## Saída esperada
-Resumo em poucas linhas: problema, o que já foi tentado, situação atual.
+Resumo de cerca de 5 linhas com três partes: **problema**, **o que já foi tentado** e **situação atual** (resolvido, não resolvido ou aguardando informação). Usa só o que está na conversa, sem inventar, e não repete dados pessoais ou senhas.
 
 ## Prompt (versão atual)
+A preencher (v1 ainda não testada).
+
 ```
-A preencher (v1 a ser escrita por você)
 ```
 
 ## Exemplo de uso
@@ -20,6 +21,7 @@ A preencher (v1 a ser escrita por você)
 **Saída obtida:** a preencher
 
 ## Histórico de versões
+
 ### v1
 - Prompt:
 - O que testei:
